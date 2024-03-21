@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <title>Site de estudo</title>
 </head>
 <body>
-<div> 
+<div class="Titulo"> 
 <h1>Titulo do meu site</h1>
 <h2>Subtitulo</h2>
 <h3>Subtitulo</h3>
@@ -22,26 +23,42 @@
   
 <p>Vivamus mattis vitae enim in pretium. Mauris et leo eu erat venenatis eleifend sit amet gravida ipsum. Nam bibendum nisl mi, quis consequat felis pellentesque ullamcorper. Nam volutpat felis eu velit finibus, ac volutpat quam laoreet. Duis dictum lacus sit amet diam vulputate, sed pharetra ex maximus. Etiam rhoncus ipsum sit amet condimentum dapibus. Etiam tincidunt magna justo, ut pellentesque lectus vulputate at. Suspendisse mollis mi sit amet nisi rutrum, nec laoreet augue egestas. Pellentesque fermentum tincidunt odio, et luctus lacus dignissim lacinia. Sed elementum felis neque. Sed efficitur elementum risus, a mollis mauris. Cras sagittis urna et ultricies dictum. Suspendisse nulla arcu, ultricies mattis ante sed, ullamcorper elementum augue.</p>
 
-<img src="Img/grandchase.png" width="1450px"> 
-<br>
-<a href="https://www.koggames.com/grandchase-classic-br/">Link do Site</a>
+<img src="Img/grandchase.png" width="1450px">
 
-<table width="900" align="center" border="1">    
-    <tr>
-        <td>Personagem</td>
-        <td>Classes</td>
-        <td>Dificuldade</td>
+<br>
+
+<div style="text-align: center;">
+<a href="https://www.koggames.com/grandchase-classic-br/">Link do Site</a>
+</div>
+
+<table width="900" align="center" border="1">
+<thead>   
+    <tr style="text-align: center;">
+        <th>Personagem</th>
+        <th>Classes</th>
+        <th>Dificuldade</th>
     </tr>
+</thead>
+
+<tbody>
     <tr>
         <td>Jin</td>
         <td>Lutador</td>
         <td>2 Estrelas</td>
     </tr>
+</tbody>    
 </table>
 
-<form>
+<br>
+
+<form align="center">
     <input type="Text">
     <input type="password">
+
+    <br>
+
+    <textarea>Escreva uma descrição</textarea>
+    <input type="button" value="Enviar">
 </form>
 
 </body>

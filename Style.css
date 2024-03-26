@@ -1,3 +1,27 @@
+body{
+    background-image: url(Img/grandchase.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .Titulo{
-color: red;
+color: whitesmoke;
+background-color: rgb(255, 121, 121);
+text-align: center;
+}
+
+.GCSite{
+    text-decoration: none;
+}
+
+.Tabelas{
+    background-color: rgb(60, 60, 153);
+    width: 900px;
+    margin: auto;
+    align-items: center ;
+    border-collapse: collapse;
+}
+
+.Tabelas th, .Tabelas td{
+    border: 1px solid yellow
 }

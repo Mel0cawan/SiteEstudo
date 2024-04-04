@@ -1,13 +1,59 @@
-body{
-    background-image: url(Img/grandchase.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.Titulo{
-color: whitesmoke;
-background-color: rgb(255, 121, 121);
+.Menu{
+background-color: rgb(155, 65, 65);
 text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 5px;
+margin: 0 auto;
+}
+
+.Menu a{
+    color: beige;
+    font-size: 76px;
+    margin: 0 100px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Menu img{
+    width: 500px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.Imagem{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Imagem img {
+    width: 100%;  /* Faz a imagem ocupar toda a largura da div */
+    height: auto;  /* Mantém a proporção da imagem */
+}
+
+
+/*
+.Personagens img{
+    width: 10%;
+    height: auto;
+}
+*/
+.Texto{
+    width: 45%;
+    margin: 40px 50%;
+    text-align: left;
+    font-size: 48px;
+}
+
+.Texto p{
+    padding-top: 30px;
 }
 
 .GCSite{

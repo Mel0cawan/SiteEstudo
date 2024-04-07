@@ -4,15 +4,26 @@
 }
 
 .Menu{
-background-color: rgb(155, 65, 65);
-text-align: center;
-align-items: center;
-justify-content: center;
-display: flex;
-padding: 5px;
-margin: 0 auto;
-position: fixed;
-top: auto;
+    background-color: rgb(155, 65, 65);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.MenuFixo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(155, 65, 65);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
 }
 
 .Menu a{
@@ -30,6 +41,7 @@ top: auto;
 }
 
 .Imagem{
+    padding-top: 185px;
     align-items: center;
     width: 100%;
     height: 100%;

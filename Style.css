@@ -11,6 +11,8 @@ justify-content: center;
 display: flex;
 padding: 5px;
 margin: 0 auto;
+position: fixed;
+
 }
 
 .Menu a{

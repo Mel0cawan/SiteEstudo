@@ -47,15 +47,19 @@ position: fixed;
     height: auto;
 }
 */
+
 .Texto{
+ /* BG Só para saber ocupação */
     width: 45%;
-    margin: 40px 50%;
+    margin: 200px 50%;
     text-align: left;
     font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .Texto p{
     padding-top: 30px;
+    line-height: 180%;
 }
 
 .GCSite{

@@ -12,7 +12,7 @@ display: flex;
 padding: 5px;
 margin: 0 auto;
 position: fixed;
-
+top: auto;
 }
 
 .Menu a{

@@ -4,49 +4,42 @@
     font-family: 'Times New Roman', Times, serif; /* Define a fonte do site*/
 }
 
-.Background img {
-    margin-top: 180px;
+header{
     width: 100%;
-    height: auto;
-}
-
-.Menu{
+    position: sticky;
+    top: 0;
     background-color: rgb(155, 65, 65); /* Define cor de Fundo*/
     text-align: center;
-    align-items: center;
+    align-items: center; /*Alinha os itens*/
     justify-content: center;
     display: flex;
     padding: 5px;
     margin: 0 auto;
 }
 
-.MenuFixo{
-    position: fixed; /*Fixa a posição do menu*/
-    width: 100%;
-}
-
-.Menu a{
+header a{
     color: beige;
     font-size: 76px;
     margin: 0 100px;
     text-decoration: none;
 }
 
-.Menu img{
+header img{
     width: 350px;
     height: auto;
     box-sizing: border-box;
 }
 
-/*
-.Personagens img{
-    width: 10%;
-    height: auto;
-}
-*/
-
+.inicio-container {
+    padding-top: 60%;
+    height: 100%;
+    background-image: url('Img/grandchase.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* Isso fará com que a imagem de fundo cubra toda a div */
+  }
+  
 .Texto{
- /* BG Só para saber ocupação */
+    /* BG Só para saber ocupação */
     width: 45%;
     margin: 200px 50%;
     text-align: left;
@@ -57,20 +50,3 @@
     padding-top: 30px;
     line-height: 180%;
 }
-/*
-.GCSite{
-    text-decoration: none;
-}
-
-.Tabelas{
-    background-color: rgb(60, 60, 153);
-    width: 900px;
-    margin: auto;
-    align-items: center ;
-    border-collapse: collapse;
-}
-
-.Tabelas th, .Tabelas td{
-    border: 1px solid yellow
-}
-*/

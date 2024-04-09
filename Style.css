@@ -4,8 +4,10 @@
     font-family: 'Times New Roman', Times, serif; /* Define a fonte do site*/
 }
 
+/*  */
+
 header{
-    width: 100%;
+    width: auto; /* Largura */
     position: sticky;
     top: 0;
     background-color: rgb(155, 65, 65); /* Define cor de Fundo*/
@@ -13,39 +15,59 @@ header{
     align-items: center; /*Alinha os itens*/
     justify-content: center;
     display: flex;
-    padding: 5px;
-    margin: 0 auto;
+    padding: 5px; 
+    margin: 0 auto; /* Espaçamento */
 }
 
 header a{
-    transition: color 1s ease;
-    color: beige;
-    font-size: 76px;
-    margin: 0 100px;
-    text-decoration: none;
+    transition: color 1s ease; /* Trasição de cor */
+    color: beige; /* Cor */
+    font-size: 76px; /* Tamanho da fonte */
+    margin: 0 100px; /* Espaçamento */
+    text-decoration: none; /* Decoração de Texto */
 }
 
 header a:hover {
-    color: rgb(253, 253, 110); /* Mude para a cor que você preferir */
+    color: rgb(253, 253, 110); /* Mude a cor */
 }
 
 header img{
-    width: 350px;
-    height: auto;
+    width: 350px; /* Largura */
+    height: auto; /* Altura */
     box-sizing: border-box;
 }
 
 .inicio-container {
-    padding-top: 60%;
-    height: 100%;
-    background-image: url('Img/grandchase.png');
-    background-repeat: no-repeat;
+    padding-top: 60%; /* Espaçamento para Cima */
+    height: auto; /* Largura */
+    background-image: url('Img/grandchase.png'); /* Background com imagem */
+    background-repeat: no-repeat; /* Define a repetição do Background */
     background-size: contain; /* Isso fará com que a imagem de fundo cubra toda a div */
   }
+
+.Status{
+    text-align: center;
+    font-size: 80px;
+}
+
+.Status h1{
+    animation-name: StatusColor;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes StatusColor {
+    0%   {color: #64FACF;}
+    25%  {color: #64C3FA;}
+    50%  {color: #65F2FA;}
+    75%  {color: #64FA9C;}
+    100% {color: #6494FA;}
+  }
+  
   
 .Texto{
     /* BG Só para saber ocupação */
-    width: 45%;
+    width: 45%; /* Largura */
     margin: 200px 50%;
     text-align: left;
     font-size: 48px;

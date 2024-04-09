@@ -18,10 +18,15 @@ header{
 }
 
 header a{
+    transition: color 1s ease;
     color: beige;
     font-size: 76px;
     margin: 0 100px;
     text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(253, 253, 110); /* Mude para a cor que você preferir */
 }
 
 header img{

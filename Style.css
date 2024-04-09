@@ -1,10 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte do site*/
+}
+
+.Background img {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
 }
 
 .Menu{
-    background-color: rgb(155, 65, 65);
+    background-color: rgb(155, 65, 65); /* Define cor de Fundo*/
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -14,16 +21,8 @@
 }
 
 .MenuFixo{
-    position: fixed;
-    top: 0;
+    position: fixed; /*Fixa a posição do menu*/
     width: 100%;
-    background-color: rgb(155, 65, 65);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 5px;
-    margin: 0 auto;
 }
 
 .Menu a{
@@ -31,7 +30,6 @@
     font-size: 76px;
     margin: 0 100px;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .Menu img{
@@ -39,19 +37,6 @@
     height: auto;
     box-sizing: border-box;
 }
-
-.Imagem{
-    padding-top: 185px;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.Imagem img {
-    width: 100%;  /* Faz a imagem ocupar toda a largura da div */
-    height: auto;  /* Mantém a proporção da imagem */
-}
-
 
 /*
 .Personagens img{
@@ -66,14 +51,13 @@
     margin: 200px 50%;
     text-align: left;
     font-size: 48px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .Texto p{
     padding-top: 30px;
     line-height: 180%;
 }
-
+/*
 .GCSite{
     text-decoration: none;
 }
@@ -89,3 +73,4 @@
 .Tabelas th, .Tabelas td{
     border: 1px solid yellow
 }
+*/

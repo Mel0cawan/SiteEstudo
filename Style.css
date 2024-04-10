@@ -6,6 +6,10 @@
 
 /*  */
 
+html, body{
+    height: 100%;
+}
+
 header{
     width: auto; /* Largura */
     position: sticky;
@@ -43,7 +47,7 @@ header img{
     background-image: url('Img/grandchase.png'); /* Background com imagem */
     background-repeat: no-repeat; /* Define a repetição do Background */
     background-size: contain; /* Isso fará com que a imagem de fundo cubra toda a div */
-  }
+}
 
 .Status{
     text-align: center;

@@ -12,6 +12,7 @@ html, body{
 
 header{
     width: auto; /* Largura */
+
     position: sticky;
     top: 0;
     background-color: rgb(155, 65, 65); /* Define cor de Fundo*/
@@ -70,9 +71,12 @@ header img{
   
   
 .Texto{
-    /* BG Só para saber ocupação */
+    background-color: yellowgreen;/* BG Só para saber ocupação */
+    box-sizing: border-box;
+    display: inline-block;
     width: 45%; /* Largura */
-    margin: 200px 50%;
+    margin: 4%;
+    padding: 50px;
     text-align: left;
     font-size: 48px;
 }

@@ -71,7 +71,7 @@ header img{
   
   
 .Texto{
-    background-color: yellowgreen;/* BG Só para saber ocupação */
+    background-color: rgb(98, 183, 233);/* BG Só para saber ocupação */
     box-sizing: border-box;
     display: inline-block;
     width: 45%; /* Largura */

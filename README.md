@@ -1,6 +1,8 @@
 # Atualizações
 
-## Versão 0: Aplicando conceitos de estudos HTML!
+## Versão 0: 
+
+- Aplicando conceitos de estudos HTML!
 
 ## MD Img: 
 

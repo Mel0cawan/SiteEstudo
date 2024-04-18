@@ -23,3 +23,5 @@
 ## Versão 0.4:
 
 - Melhorias do site e atualização de Titulos e paragrafos!
+
+## Versão 0.4.1:
